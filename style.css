@@ -16,6 +16,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 30px;
 }
 
 h1 {
@@ -26,14 +27,11 @@ p {
     font-size: 30px;
 }
 
-h1, p {
-    padding-bottom: 30px;
-}
-
-.button-wrapper button {
+button {
     font-size: 15px;
     height: 40px;
-    width: 80px;
+    width: auto;
+    padding: 0 15px 0 15px;
 }
 
 .button-wrapper {
